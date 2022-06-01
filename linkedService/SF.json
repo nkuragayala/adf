@@ -1,0 +1,20 @@
+{
+	"name": "SF",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Salesforce",
+		"typeProperties": {
+			"environmentUrl": "https://test.salesforce.com/services/Soap/u/45.0",
+			"username": "dataservices@eb-prod.ncino.com.uat",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "SalesForceCredentials"
+			}
+		}
+	}
+}

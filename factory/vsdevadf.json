@@ -1,0 +1,9 @@
+{
+	"name": "vsdevadf",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7276b136-75f5-4f88-9933-b48cd075cc50",
+		"tenantId": "dd2d2875-6e99-4e5f-9370-3216d9f238f3"
+	}
+}
